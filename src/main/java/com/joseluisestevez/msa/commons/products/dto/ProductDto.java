@@ -14,7 +14,7 @@ import lombok.Setter;
 @Setter
 public class ProductDto {
 
-	@Getter(AccessLevel.NONE)
+	@Getter(AccessLevel.PUBLIC)
 	private Long id;
 	@NotNull
 	private String name;
