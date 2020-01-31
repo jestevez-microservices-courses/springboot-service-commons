@@ -2,7 +2,6 @@ package com.joseluisestevez.msa.commons.users.dto;
 
 import java.util.Set;
 
-import javax.management.relation.Role;
 import javax.validation.constraints.NotNull;
 
 import lombok.Getter;
@@ -27,7 +26,7 @@ public class UserDto {
 	@NotNull
 	private String email;
 
-	private Set<Role> roles;
+	private Set<RoleDto> roles;
 
 	private Integer attempts;
 
